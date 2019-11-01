@@ -1,0 +1,6 @@
+<svg width="90px"  height="90px"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" class="lds-dual-ring" style="background: none;">
+	<circle cx="50" cy="50" ng-attr-r="{{config.radius}}" ng-attr-stroke-width="{{config.width}}" ng-attr-stroke="{{config.stroke}}" ng-attr-stroke-dasharray="{{config.dasharray}}" fill="none" stroke-linecap="round" r="40" stroke-width="4" stroke="#28F5BE" stroke-dasharray="62.83185307179586 62.83185307179586" transform="rotate(147.257 50 50)">
+		<animateTransform attributeName="transform" type="rotate" calcMode="linear" values="0 50 50;360 50 50" keyTimes="0;1" dur="1s" begin="0s" repeatCount="indefinite"></animateTransform>
+	</circle>
+	<path id="Union" fill-rule="evenodd" clip-rule="evenodd" d="M0 31.9999L18.1983 0L20.4724 3.99931L4.5493 31.9999H0ZM13.6484 32H9.09906L22.748 7.99984L36.396 32H18.1987L20.4729 27.9996H29.5715L22.748 16.2857L13.6484 32Z" fill="#28F5BE" transform="translate(32, 30)"/>
+</svg>

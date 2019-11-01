@@ -1,0 +1,445 @@
+@import 'fonts.css';
+
+* {
+	list-style: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	border: 0;
+	color: #23292e;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	font-size: 16px;
+	font-family: 'Proxima Nova';
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+
+button {
+	background: transparent;
+	cursor: pointer
+}
+
+img {
+	display: block
+}
+
+html,
+body {
+	overflow-x: hidden
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0px 15px
+}
+
+.s-style {
+	background: #1F1F24;
+	width: 100%;
+	height: 100vh;
+	padding-top: 68px
+}
+
+.s-style .container {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	width: 656px
+}
+
+.s-style .container:before {
+	content: "";
+	width: 634.02px;
+	height: 704.02px;
+	position: absolute;
+	top: -23px;
+	left: -280px;
+	background: url("../img/circle-02.svg") no-repeat center center;
+	pointer-events: none
+}
+
+.s-style .container:after {
+	content: "";
+	background: url("../img/circle-01.svg") no-repeat center center;
+	width: 279.23px;
+	height: 282.23px;
+	position: absolute;
+	right: -189px;
+	top: 400px;
+	pointer-events: none
+}
+
+.s-style .logo {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 63px
+}
+
+.s-style .box {
+	position: relative;
+	width: 656px;
+	height: 455px;
+	background-color: #27272D;
+	border-radius: 12px;
+	padding-top: 102px;
+	padding-left: 99px;
+	margin: 0 auto;
+	margin-bottom: 56px
+}
+
+.s-style .box .ilustracao {
+	position: absolute;
+	top: -80px;
+	right: -55px
+}
+
+.s-style .box .txt {
+	position: absolute;
+	right: -108px
+}
+
+.s-style .box span {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 37px;
+	color: #28F5BE;
+	margin-bottom: 7px
+}
+
+.s-style .box h1 {
+	font-weight: normal;
+	font-size: 72px;
+	line-height: 88px;
+	color: #FFFFFF;
+	margin-bottom: 23px
+}
+
+.s-style .box p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF
+}
+
+.s-style .box p a {
+	color: #ffffff;
+	font-weight: 600;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.s-style .box p a:hover {
+	color: #34f5be
+}
+
+.s-style .box .formulario {
+	margin-top: 17px
+}
+
+.s-style .box .formulario form {
+	margin-bottom: 32px
+}
+
+.s-style .box .formulario form #mc_embed_signup_scroll {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.s-style .box .formulario form input[type="email"] {
+	width: 300px;
+	height: 56px;
+	opacity: 0.9;
+	border: 1px solid #E1E1F2;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 6px;
+	background-color: transparent;
+	font-size: 15px;
+	line-height: 18px;
+	color: #ffffff;
+	padding: 0px 27px
+}
+
+.s-style .box .formulario form input[type="submit"] {
+	width: 128px;
+	height: 56px;
+	background: #28F5BE;
+	border: 2px solid #28F5BE;
+	border-radius: 6px;
+	text-align: center;
+	color: #1F1F24;
+	font-weight: 600;
+	margin-left: 17px;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s;
+	cursor: pointer
+}
+
+.s-style .box .formulario form input[type="submit"]:hover {
+	background-color: transparent;
+	color: #28F5BE;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.s-style .ajuda {
+	padding-left: 95px
+}
+
+.s-style .ajuda h3 {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	color: #FFFFFF;
+	margin-bottom: 8px
+}
+
+.s-style .ajuda p {
+	font-size: 14px;
+	line-height: 20px;
+	color: #FFFFFF;
+	opacity: 0.8;
+	margin-bottom: 24px
+}
+
+.s-style .ajuda form {
+	display: table;
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.s-style .ajuda form:hover {
+	-webkit-transform: scale(1.03);
+	-ms-transform: scale(1.03);
+	transform: scale(1.03);
+	-webkit-transition: all .3s;
+	-o-transition: all .3s;
+	transition: all .3s
+}
+
+.s-style .ajuda form button {
+	background: transparent;
+	padding: 14px 40px;
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	color: #28F5BE;
+	text-shadow: 2px 3px 6px rgba(0,0,0,0.2);
+	border: 1px solid #28F5BE;
+	border-radius: 6px;
+	box-shadow: 2px 3px 6px rgba(0,0,0,0.1);
+}
+
+.box-message {
+	display: flex;
+	position: fixed;
+	background-color: rgba(31, 31, 36, 0.8);
+	width: 100%;
+	height: 100%;
+	float: left;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 25px;
+	visibility: hidden;
+	opacity: 0;
+	align-items: center;
+	justify-content: center;
+	z-index: 999;
+	transition: 0.4s;
+}
+
+.box-message.active {
+	visibility: visible;
+	opacity: 1;
+}
+
+.box-message .loading {
+	display: none;
+	background-color: transparent;
+	background-image: url('../img/loading.svg');
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+
+.box-message .loading.active {
+	display: block;
+}
+
+.box-message .message {
+	display: none;
+	background: #FFF;
+	padding: 20px 40px;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+	color: #23292E;
+	border-radius: 6px;
+}
+
+.box-message .message.active {
+	display: block;
+}
+
+.box-message .download {
+	display: none;
+	background: #FFF;
+	width: 400px;
+	padding: 30px;
+	font-weight: 400;
+	text-align: center;
+	color: #23292E;
+	border-radius: 6px;
+}
+
+.box-message .download.active {
+	display: block;
+}
+
+.box-message .download p {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: center;
+	color: #23292E;
+}
+
+.box-message .download .btn-baixar {
+	background: #28F5BE;
+	width: 100%;
+	float: left;
+	margin: 0;
+	margin-top: 12px;
+	padding: 14px 40px;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	color: #1F1F24;
+	border: 2px solid;
+	border-color: #28F5BE;
+	border-radius: 6px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.box-message .download .btn-baixar:hover {
+	background: transparent;
+}
+
+@media (max-width: 1440px) {
+	.s-style {
+		height: auto;
+		min-height: 100vh;
+		padding: 40px 0px
+	}
+	.s-style .logo {
+		margin-bottom: 30px
+	}
+}
+
+@media (max-width: 480px) {
+	.s-style {
+		padding: 40px 0px;
+		height: auto
+	}
+	.s-style .container {
+		width: 100%
+	}
+	.s-style .container:before,
+	.s-style .container:after {
+		display: none
+	}
+	.s-style .logo {
+		margin-bottom: 30px
+	}
+	.s-style .box {
+		width: 100%;
+		padding: 40px 30px;
+		height: auto;
+		margin-bottom: 20px
+	}
+	.s-style .box .ilustracao {
+		display: none
+	}
+	.s-style .box span {
+		text-align: center;
+		display: block;
+		line-height: 1;
+		font-size: 22px
+	}
+	.s-style .box h1 {
+		text-align: center;
+		font-size: 45px;
+		line-height: 1;
+		margin: 10px 0px;
+		margin-bottom: 20px
+	}
+	.s-style .box p {
+		text-align: center;
+		font-size: 14px;
+		line-height: 25px
+	}
+	.s-style .box .formulario form #mc_embed_signup_scroll {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	.s-style .box .formulario form input[type='email'] {
+		width: 100%;
+		margin-bottom: 15px
+	}
+	.s-style .box .formulario form .clear {
+		width: 100%
+	}
+	.s-style .box .formulario form input[type="submit"] {
+		margin-left: 0px;
+		width: 100%
+	}
+	.s-style .ajuda {
+		padding: 0;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center
+	}
+	.box-message .message {
+		font-size: 18px;
+	}
+}
